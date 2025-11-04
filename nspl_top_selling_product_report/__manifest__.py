@@ -1,6 +1,6 @@
 {
     'name': 'Top and Least Selling Product Report',
-    'version': '18.0',
+    'version': '19.0.1',
     'summary': """Generate insightful reports on top and least selling products directly from Odoo Sales. 
     Analyze product performance based on sales data to make informed inventory and marketing decisions.
     """,

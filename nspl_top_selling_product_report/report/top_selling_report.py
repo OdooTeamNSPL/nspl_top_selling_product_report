@@ -80,7 +80,7 @@ class TopSellingReport(models.AbstractModel):
                 product_dict[product_name] = {
                     'product_name': product_name,
                     'sold_quantity': record.product_uom_qty,
-                    'uom': record.product_uom.name,
+                    'uom': record.product_uom_id.name,
                 }
         sorted_products = sorted(product_dict.values(),
                                  key=lambda x: x['sold_quantity'],
